@@ -63,7 +63,7 @@
     margin-right: 10px;
     height: 400px;
     width: 600px;
-    border-radius: 50px;
+    border-radius: 20px;
     transition: transform 0.3s, box-shadow 0.3s; /* Add transitions for smooth animation */
   }
   
