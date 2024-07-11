@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+}
+
+.gradient-image {
+    display: block;
+    width: 100%;
+    height: 00px;
+    max-width: 100%;
+    position: relative;
+}
+
+.gradient-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure the gradient is above the image */
+}
+
+.Description {
+    position: absolute;
+    font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;;
+
+    top: 70px;
+    left: 110%; /* Start off-screen */
+    right: 500px;
+    height: 100%; /* Ensure it stretches to the right edge */
+    color: #1450A3;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+   
+    text-align: center;
+    padding: 20px;
+    
+    animation: moveRightToRight 3s forwards;
+}
+.Description2 {
+    position: absolute;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    top: 160px;
+    left: 110%; /* Start off-screen */
+    right: 500px;
+    height: 100%; /* Ensure it stretches to the right edge */
+    color: #1450A3;
+    font-size: 20px;
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+    text-align: center;
+    padding: 20px;
+    animation : fadeIn 1s forwards;
+}
+
+.Description2 li {
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 1s forwards; /* 1 second fade-in animation */
+}
+
+.Description2 li:nth-child(1) {
+    animation-delay: 1s; /* Delay for the first item */
+}
+
+.Description2 li:nth-child(2) {
+    animation-delay: 2s; /* Delay for the second item */
+}
+
+.Description2 li:nth-child(3) {
+    animation-delay: 3s; /* Delay for the third item */
+}
+
+@keyframes fadeIn {
+    from {
+        left: -100%; /* Start off-screen to the left */
+        opacity: 0; /* Start hidden */
+    }
+    to {
+        left: 0%; /* Move to the right edge */
+        opacity: 1; /* Become visible */
+    }
+}
+
+
+.Description2 h2 {
+    margin-bottom: 10px;
+}
+
+.Description2 ul {
+    list-style-type: disc;
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.Description2 li {
+  text-align: left;
+    justify-content: left;
+    margin-bottom: 5px;
+    margin: 40px;
+}
+
+@keyframes moveRightToRight {
+    from {
+        left: -100%; /* Start off-screen to the left */
+    }
+    to {
+        left: 0%; /* Move to the right edge */
+        transform: translateX(0); /* Ensure no additional translation */
+    }
+}
+
+
+.chat-icon {
+    position: absolute;
+    bottom: 30px; /* Move it 60px up from its previous position */
+    left: 20px;
+    background-color: #1450A3;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-icon i {
+    font-size: 24px;
+}
+
+.chat-icon:hover {
+    background-color: #0f3c8e;
+    cursor: pointer;
+}

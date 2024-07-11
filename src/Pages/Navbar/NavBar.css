@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between header and options */
+    /* background-color: #f0f0f0; Set your desired background color */
+    padding: 10px 20px; /* Adds some padding for better appearance */
+    flex-wrap: nowrap; /* Prevents wrapping of flex items */
+    background: linear-gradient(120deg, #191D88, #1450A3, #337CCF);
+
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+
+.title {
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+.subtitle {
+    font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-weight: 200;
+    font-style: normal;
+    white-space: nowrap;
+    color:white;
+    font-size: 18px; /* Decreased font size */
+    padding: 15px;
+    text-decoration: none;
+}

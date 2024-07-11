@@ -1,0 +1,71 @@
+
+.heading{
+    color: #1450A3;
+    text-align: center;
+    padding: 20px;
+
+}
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} 
+/* .parent{
+    display: flex;
+    justify-content: center;
+} */
+/* .contribute{
+   border-radius: 10px;
+   background-color: rgb(246, 69, 15);
+   width: 1211px;
+   text-align: center;
+   margin: 20px;
+} */
+/* .contribute p{
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+} */
+/* .contribute button{
+    font-size: large;
+    background-color: rgb(124, 10, 200);
+    color: whitesmoke;
+    font-weight: bold;
+    border-color: rgb(64, 28, 88);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 40px;
+}  */
+/* .contribute-form{
+    display: flex;
+    justify-content: center;
+}
+.contribute-form form{
+    border: 2px solid rgb(64, 28, 88);
+    border-radius: 10px;
+    margin: 40px;
+    background-color: lavender;
+    padding: 20px;
+} */
+/* .contribute-form input{
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    font-size: medium;
+    border: 2px solid rgb(64, 28, 88) ;
+}  */
+/* .cbutton{
+    padding: 10px;
+    background-color: crimson;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid crimson;
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin-left:40%;
+    
+} */

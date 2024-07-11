@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.footer {
+    height: 400px;
+    background-color: #232020;
+    border: solid;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    background-color: #1450A3;
+}
+
+
+.navigate {
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+.navigate a {
+    text-decoration: none;
+    margin: 15px 10px 0px 15px;
+    color: white;
+}
+
+
+.navigate .links .link1 {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.contact,.copyright{
+    text-align: center;
+    margin: 25px;
+}
+
+
+.cp{
+    display: inline-block;
+    color: #FFC448;
+    text-decoration: underline;
+}
+
+.about{
+   
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+
+.title1{
+   
+    font-family: 'Poetsen One', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    font-style: normal;
+    white-space: nowrap; 
+    text-align: center;
+    font-size: 40px;
+}
+.header1{
+    display: flex;
+    position: relative;
+    padding-left: 450px;
+    padding-top: 10px;
+}
+.logo1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}

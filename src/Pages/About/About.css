@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+   .About_us_container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .About_us_header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .About_us_head {
+    font-size: 36px;
+    color: #191d88;
+  }
+  
+
+  .About_us_how_it_works,
+  .About_us_centralized_platform,
+  .About_us_about{
+    margin-bottom: 10px;
+  }
+  .About_us_get_involved {
+    margin-bottom: 40px;
+  }
+  
+  .About_us_image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .About_us_text {
+    flex: 1;
+  }
+  
+  .About_us_about {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .About_us_text_container {
+    max-width: 600px;
+    text-align: right;
+  }
+  
+  .About_us_title_container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  .About_us_title_image {
+    margin-right: 10px;
+    height: 400px;
+    width: 600px;
+    border-radius: 50px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Add transitions for smooth animation */
+  }
+  
+  .About_us_title_image:hover {
+    transform: scale(1.05); /* Scale up the image on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .About_us_subhead {
+    font-size: 28px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #1450a3;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .About_us_content {
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:#337ccf;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .About_us_footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f4;
+  }
+  
+  ul.About_us_content {
+    padding-left: 20px;
+  }
+  
+  ul.About_us_content li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,93 @@
+/* EventPage.css */
+.event-page {
+    text-align: center;
+}
+
+.heading {
+    color: #1450A3;
+    padding: 20px;
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-card {.event-page {
+    text-align: center;
+}
+
+.heading {
+    color: #1450A3;
+    padding: 20px;
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-card {
+    width: 330px;
+    height: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 28px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-card h2 {
+    color: #337ccf;
+    margin-top: 10px;
+}
+
+.event-card p {
+    color: #1450A3;
+    margin: 10px;
+}
+
+.event-card a {
+    color: #337ccf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    width: 330px;
+    height: 200px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 28px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-card h2 {
+    color: #337ccf;
+    margin-top: 10px;
+}
+
+.event-card p {
+    color: #1450A3;
+    margin: 10px;
+}
+
+.event-card a {
+    color: #337ccf;
+    text-decoration: none;
+    font-weight: bold;
+}
