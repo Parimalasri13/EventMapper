@@ -92,9 +92,7 @@ import './Signin.css';
 const Signin = () => {
   const [isSignup, setIsSignup] = useState(false);
 
-  const handleToggle = () => {
-    setIsSignup((prev) => !prev);
-  };
+ 
 
   return (
     <div>
